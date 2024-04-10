@@ -1,0 +1,54 @@
+/* Complete the CSS styling according to the provided design */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1rem;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    margin-top: 1rem;
+    color: 3a86ff;
+    background: goldenrod;
+    padding: 0.7rem 2rem;
+    border: none;
+    text-shadow: 0 0 1px black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+button:active {
+    /* padding: 0.6rem 1.8rem; */
+    transform: scale(0.9);
+    transition: all 0.2s linear;
+}
